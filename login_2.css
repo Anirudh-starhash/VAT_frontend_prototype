@@ -1,0 +1,97 @@
+body{
+    background: whitesmoke;
+    display:flex;
+    justify-content : center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100%;
+}
+.main{
+    box-sizing: border-box;
+    box-shadow: 0 0 15px gainsboro;
+    width: 500px;
+    height: 500px;
+    display:flex;
+    justify-content : center;
+    align-items: center;
+    background-color: gainsboro;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 20px;
+}
+#name{
+    width:300px;
+}
+#email2{
+    width: 300px;
+}
+#payment_mode{
+    width: 100px;
+}
+.hii{
+    display:flex;
+    justify-content : center;
+    align-items: center;
+    margin:20px;
+    padding: 20px;
+    position: absolute;
+    left:40%;
+    top:-4%;
+}
+#submit2{
+    height: 50px;
+    width: 100px;
+    background-color: whitesmoke;
+    color: darkblue;
+    box-shadow: 0 0 15px lightblue;
+    position: absolute;
+    left:38%;
+    top:70%;
+}
+.submit{
+    margin:10px;
+}
+#reset2{
+    position:absolute;
+    left:70%;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    left:52%;
+    top:70%;
+    background-color: whitesmoke;
+    color: darkblue;
+    box-shadow: 0 0 15px lightblue;
+}
+#homing{
+    font-weight: 200px;
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    left:2%;
+    top: 4%;
+    background-color: navajowhite;
+    box-shadow: 0 0 15px lightblue;
+}
+#homing:hover{
+    background-color: lightblue;
+}
+#submit2:hover{
+    background-color: gainsboro;
+}
+#reset2:hover{
+    background-color: gainsboro;
+}
+#homing:active{
+    color: blue;
+    transform: translate(2px,2px);
+    cursor: pointer;
+}
+#regis2:active{
+    color: blue;
+    transform: translate(2px,2px);
+    cursor: pointer;
+}
+h1:hover{
+    color: darkblue;
+}

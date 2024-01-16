@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="login_2.css">
+</head>
+<body>
+    <div class="hii">
+        <h1>Payment Page</h1>
+    </div>
+    <div class="main">
+        <!-- types of input and textarea with or without label -->
+        <form action="backend.php">
+            <div>
+                <label for="Name">Name&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</label>
+                <input type="name" name="Name" id="name">
+            </div>
+            <br>
+            <div>
+                <label for="email" >Email&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</label>
+                <input type="email" name="myemail" id="email2">
+                <!-- here we will have text box and we can enter text here -->
+            </div><br>
+            <div>
+                <label for="payment_mode" >payment_mode&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</label>
+                <select name="mypayment" id="payment_mode">
+                <option value=""></option>
+                <option value="">Cash</option>
+                <option value="">UPI</option>
+                <option value="">Bank Account</option></select>
+                <!-- here we will have text box and we can enter text here -->
+            </div><br>
+            <div>
+                <label for="human" >Are you a human&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</label>
+                <input type="checkbox" name="myhuman" id="human">
+                <!-- here we will have text box and we can enter text here -->
+            </div><br>
+
+            <br>
+            <div>
+                <input type="submit" value="Submit-Now" id="submit2">
+                <!-- submit option is here -->
+                <input type="reset" value="Reset-Now" id="reset2">
+                <!-- reset option is here -->
+            </div>
+            <br>
+            <div>
+                <a href="./homepage.html"><input type="button"  value="HOME" name="mybutton" id="homing"></a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
