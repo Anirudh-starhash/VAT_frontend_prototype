@@ -5,76 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./dogs.css">
+    <script src="./index.js"></script>
   </head>
   <body>
-    <style>
-      #div1 {
-        width: 100%;
-        height: 1800px;
-        background-color: lightgrey;
-        background-repeat: no-repeat;
-        background-size: 100%;
-      }
-      a {
-        color: black;
-        font-size: 30px;
-      }
-      a.hi {
-        color: brown;
-        font-size: 30px;
-      }
-      .universe {
-        width: 300px;
-      }
-      em {
-        color: RED;
-      }
-      strong {
-        color: blue;
-      }
-      .huha {
-        position: relative;
-        bottom: 900px;
-        left: 400px;
-        width: 600px;
-        height: 450px;
-      }
-      #goldie{
-        height:400px;
-      }
-    </style>
-    <div id="div1">
-      <h1>
-        <em>Welcome</em> ! Here you can find different breeds of
-        <strong>Dogs</strong> we have been taking care
-      </h1>
-      <a href="./homepage.html">
-        <strong>Click here to go back to home page </strong>
-      </a>
-      <h2>You can have a look on the below breeds</h2>
-      <a class="hi" href="./goldenretriever.html">
-        <img src="./images/goldie (1).jpg" alt="" id="goldie" /> <br />
-        <p>GOLDEN RETRIEVER</p>
-      </a>
-      <br /><br />
-      <a class="hi" href="./germanshepard.html">
-        <img src="./images/german.jpg" alt="" />
-        <p>GERMAN SHEPARD</p>
-      </a>
-      <br />
-      <br />
-      <a class="hi" href="./pitbull.html">
-        <img class="universe" src="./images/pitbull.jpg" alt="" />
-        <p>PIT BULL</p>
-      </a>
-      <img
-        class="huha"
-        src="./images/all_dog.jpg"
-        alt=""
-      />
-      <br />
-      <br />
-      <br />
+    <div class="abc">
+      <div class="main1">
+        <h1>
+          <em>Welcome</em>
+          Here You can find different breeds of.....
+          <strong>Dogs....</strong>
+          we have been taking care of them !
+          <button onclick="goToHomePage()">Dashboard</button>
+        </h1>
+      </div>
+      <div class="main2">
+        <h2>You can have a look on the below breeds we have......</h2>
+        <div>
+          <p>
+            Adopting a Golden Retriever puppy brings endless
+            joy and companionship to your life. 
+            Known for their gentle nature, intelligence, 
+            and boundless loyalty, these dogs make perfect 
+            family pets and thrive in loving homes. 
+            Their playful demeanor makes them wonderful with children, 
+            while their eagerness to please ensures they're easily trainable. 
+            Golden Retrievers are active and love outdoor activities, 
+            offering you a fun and energetic companion. 
+            Beyond their adorable looks and fluffy coats, 
+            they provide emotional support and form lifelong bonds with their owners. 
+            By adopting, you also give a deserving puppy a chance at a happy, 
+            fulfilling life.
+          </p>
+          <img src="./images/goldie (1).jpg" alt="">
+          <p>Golden Retriever -> <button onclick="golden()">Check it out</button></p>
+        </div>
+        <div>
+          <p>
+            Adopting a German Shepherd puppy offers a loyal, intelligent, 
+            and protective companion who quickly becomes a beloved family member. 
+            Renowned for their courage and versatility, these dogs excel as both 
+            affectionate pets and skilled working dogs. 
+            They are highly trainable, making them ideal for obedience training, 
+            sports, and specialized tasks. Their natural protective instincts make 
+            them excellent guardians, while their playful and 
+            loving nature shines in family settings. 
+            German Shepherds are active and thrive on mental and physical stimulation, 
+            perfect for energetic owners. 
+            By adopting, you provide a devoted puppy the opportunity 
+            to grow in a safe and loving home.
+          </p>
+          <img src="./images/german.jpg" alt="">
+          <p>German Shepard -> <button onclick="german()">Check it out</button></p>
+        </div>
+        <div>
+          <p>
+            Adopting a Pit Bull puppy means welcoming a loyal, 
+            affectionate, and energetic companion into your home. 
+            Often misunderstood, Pit Bulls are incredibly loving and 
+            form deep bonds with their families. 
+            They are intelligent and eager to please, 
+            making them highly trainable and adaptable to various lifestyles. 
+            Their playful nature and gentle demeanor make them excellent with 
+            children when properly socialized. 
+            Pit Bulls are active dogs who thrive with regular exercise and attention. 
+            By adopting, you not only gain a devoted friend but also help break the 
+            stigma around this wonderful breed, giving them the loving home they deserve.
+          </p>
+          <img src="./images/pitbull.jpg" alt="">
+          <p>Pit Bull -> <button onclick="pitbull()">Check it out</button></p>
+        </div>
+        <div>
+          <p>
+            Adopting a Labrador Retriever puppy means bringing home a bundle of joy, 
+            loyalty, and endless affection. 
+            Labradors are known for their friendly and outgoing nature, 
+            making them fantastic companions for individuals and families alike. 
+            Their intelligence and eagerness to please make training a breeze, 
+            whether for obedience, assistance work, or fun tricks. 
+            Labradors are playful, energetic, and love outdoor activities, 
+            making them ideal for active lifestyles. 
+            They are also incredibly patient and gentle, making them 
+            great with children and other pets. 
+            By adopting, you provide a loving home to a devoted and 
+            cheerful puppy ready to fill your life with happiness.
+          </p>
+          <img src="./images/labrador.jpg" alt="">
+          <p>Labrador -> <button onclick="lab()">Check it out</button></p>
+        </div>
+      </div>
     </div>
   </body>
 </html>

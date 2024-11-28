@@ -1,132 +1,72 @@
 <!DOCTYPE html>
-<!-- code for homepage -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet Advisory</title>
+    <link rel="stylesheet" href="./homepage.css">
+    <script src="./index.js"></script>
   </head>
   <body>
-    <style>
-      * {
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-      }
-      #div1 {
-        width: 100%;
-        height: 100px;
-        background-color: beige;
-      }
-      p {
-        font-size: 75px;
-      }
-      #div2 {
-        width: 100%;
-        height: 300px;
-        background-color: antiquewhite;
-      }
-      img {
-        width: 300px;
-        margin-top: 5%;
-        float: left;
-      }
-      p.username {
-        font-size: 30px;
-        margin-left: 30%;
-      }
-      #div3 {
-        width: 100%;
-        height: 400px;
-        background-color: bisque;
-      }
-      h1 {
-        text-align: center;
-        font-size: 50px;
-      }
-      img.cat {
-        margin-left: 300px;
-      }
-      img.dog {
-        margin-left: 75px;
-        width: 350px;
-      }
-      #div4 {
-        background-color: pink;
-        width: 100%;
-        height: 500px;
-      }
-      p.email {
-        font-size: 30px;
-        margin-left: 10px;
-      }
-      em {
-        color: red;
-      }
-      a {
-        font-size: 30px;
-        color: blue;
-        margin-left: 500px;
-      }
-      #cdfg {
-        font-size: 30px;
-      }
-      .email {
-        color: red;
-      }
-    </style>
+    <div class="abc">
+      <div class="main">
+        <div></div>
+        <div class="header">
+          <div class="s">
+            <p>Little paws</p>
+            <button onclick="goToHome()">Home</button>
+          </div>
+          
+          <img src="./images/little_paw.png" alt="">
+        </div>
+        <div></div>
+    </div>
+
+    <div class="main1">
+      <p>Little paws is a website which gives satisfaction and happiness to
+        customers regarding the lovable and adorable pets.We have two types of
+        pets <em>THE CATS AND DOGS </em>
+        which are very caring ones too.In our website we provide the customers
+        with all types of facilities of the pets with age,gender,size,health
+        status,etc....
+      </p>
+    </div>
+
+    <div class="main2">
+      <div>
+        <h2>Select The type of Pet From the given Below</h2>
+        <div class="pets">
+          <div class="dog">
+            <img src="./images/download.jpg" alt="">
+            <button onclick="dogPage()" >Click Here -></button>
+          </div>
+          <div class="cat">
+            <img src="./images/download_.jpg" alt="">
+            <button onclick="catPage()">Click Here -></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="main3">
+        <p>For Further Details u can contact to the below email id</p>
+        <p><em>Email id  :</em> <span>anirudhpabbaraju1103@gmail.com</span></p>
+        <ul>
+          Contact Numbers
+          <li>1) 984**29361 </li>
+          <li>2) 8983***123 </li>
+          <li>3) 93198319**</li>
+        </ul>
+        <p>To Know About the Support Staff -> <button onclick="TeamMembers()">Team Members</button></p>
+        <p>For More Elegant View of PET ADVISORY WEBISTES YOU CAN REFER THE BELOW LINK 
+          <a href="https://www.sgu.edu/blog/veterinary/tips-on-taking-care-of-animals/" target="_blank"><em>More Info*</em></a>
+        </p>
+        <p>Wanna Checkout Customer Reviews Before Visiting Here You go! -> <button onclick="CustomerReviews()">Customer Reviews</button></p>
+        <p>If You do Believe in Zodiac Signs and Astrology This is For you! -> <button onclick="FindCompanion()">Find Pet Companian</button></p>
+      </div>
+     
+    </div>
+    </div>
+      
   </body>
-  <div id="div1">
-    <p>Little paws</p>
-  </div>
-  <div id="div2">
-    <img src="./images/little_paw.png" alt="" /><br />
-    <p class="username">
-      Little paws is a website which gives satisfaction and happiness to
-      customers regarding the lovable and adorable pets.We have two types of
-      pets <em>THE CATS AND DOGS </em>
-      which are very caring ones too.In our website we provide the customers
-      with all types of facilities of the pets with age,gender,size,health
-      status,etc....
-    </p>
-  </div>
-  <div id="div3">
-    <br /><br />
-    <h1>Select your pet by clicking on the picture</h1>
-    <a href="./dogs.html" target="_blank">
-      <img class="dog" src="./images/download.jpg" alt="" />
-    </a>
-    <a href="./cats.html" target="_blank">
-      <img class="cat" src="./images/download_.jpg" alt="" />
-    </a>
-  </div>
-  <div id="div4">
-    <p class="email">For further details u can contact to the below email id</p>
-    <br />
-    <p id="cdfg">mail id is = anirudhpabbaraju1103@gmail.com</p>
-    <br />
-    <p class="email">Contact number : 9346936895</p>
-    <br />
-    <p class="email">Alternate number 1 : 7981192166</p>
-    <br />
-    <p class="email">Alternate number 2 : 8247863398</p>
-    <br />
-    <a href="./team_members.html"><em>To Know About our team click this</em></a>
-    <br />
-
-    <a href="./team_members.html" target="_blank"> 1.link page</a>
-
-    <p id="cdfg">For even more tips pls view this link below</p>
-    <a
-      href="https://www.sgu.edu/blog/veterinary/tips-on-taking-care-of-animals/"
-      target="_blank"
-    >
-      2.Pro Tips</a
-    >
-    <br />
-    <a href="./customer reviews.html">3.Customer reviews</a><br />
-    <a href="./Findyourpetcompanion.html"
-      >4.to find more about your type of pet click this</a
-    >
 </html>

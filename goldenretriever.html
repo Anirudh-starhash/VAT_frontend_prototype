@@ -5,116 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Golden Retriever</title>
-    <style>
-      p {
-        font-size: 20px;
-      }
-      img {
-        width: 300px;
-        margin-left: 50px;
-        margin-right: 75px;
-        float: left;
-      }
-      p.na {
-        margin-top: 100px;
-      }
-    </style>
+    <link rel="stylesheet" href="./golden.css">
+    <script src="./index.js"></script>
   </head>
   <body>
-    <style>
-      #div1 {
-        width: 100%;
-        height: 1225px;
-        background-color: pink;
-        background-repeat: no-repeat;
-        background-size: 90%;
-        background-attachment: fixed;
-      }
-      #gaga{
-        border:solid;
-        padding:20px;
-      }
-      #baba{
-        border:solid;
-        padding:20px;
-      }
-      #manga{
-        border:solid;
-        padding:20px;
-      }
-      #suga{
-        border:solid;
-        padding:20px;
-      }
-      #bytr{
-        position:relative;
-        bottom:2000px;
-        left:600px;
-        font-size:30px;
-      }
-    </style>
-    <div id="div1">
+    <div class="abc">
       <h1>GOLDEN RETRIEVER</h1>
-      <div id="manga">
-      <a href="./login.html"><img src="./images/golden_4.jpg" alt="" /></a>
-      <p><strong>NAME: </strong> <em>Goldie</em></p>
-      <p><strong>BREED: </strong> <em>Golden Retriever</em></p>
-      <p><strong>GENDER: </strong> <em>Male</em></p>
-      <p><strong>AGE: </strong> <em>4 years</em></p>
-      <p>
-        <strong>NOTABLES: </strong>
-        <em
-          >He is a good boy and the most beautiful boy. He loves his elephant
-          plushie so much and can't sleep without it. He also worked as a
-          therapy dog for children in hospitals</em
-        >
-      </p>
+      <div class="main1">
+        <img src="./images/golden_4.jpg" alt="">
+        <div class="contents">
+          <p><strong>NAME: </strong> <em>Goldie</em></p>
+          <p><strong>BREED: </strong> <em>Golden Retriever</em></p>
+          <p><strong>GENDER: </strong> <em>Male</em></p>
+          <p><strong>AGE: </strong> <em>4 years</em></p>
+          <p>
+            <strong>NOTABLES: </strong>
+            <em>He is a good boy and the most beautiful boy. He loves his elephant
+              plushie so much and can't sleep without it. He also worked as a
+              therapy dog for children in hospitals
+            </em>
+          </p>
+          <button onclick="adopt()">Wanna Adopt Her!</button>
+        </div>
       </div>
-      <div id="gaga">
-      <a href="./login.html"><img src="./images/golden_3.jpg" alt="" /></a>
-      <p><strong>NAME: </strong> <em>Sponge</em></p>
-      <p><strong>BREED: </strong> <em>Golden Retriever</em></p>
-      <p><strong>GENDER: </strong> <em>Male</em></p>
-      <p><strong>AGE: </strong> <em>3 months</em></p>
-      <p>
-        <strong>NOTABLES: </strong>
-        <em
-          >He is that one naughty kid of the group. He is the most active one of
-          the whole adoption centre.</em
-        >
-      </p>
+      <div class="main2">
+        <img src="./images/golden_3.jpg" alt="">
+        <div class="contents">
+          <p><strong>NAME: </strong> <em>Sponge</em></p>
+          <p><strong>BREED: </strong> <em>Golden Retriever</em></p>
+          <p><strong>GENDER: </strong> <em>Male</em></p>
+          <p><strong>AGE: </strong> <em>3 months</em></p>
+          <p>
+            <strong>NOTABLES: </strong>
+            <em>
+              He is that one naughty kid of the group. He is the most active one of
+              the whole adoption centre.
+            </em>
+          </p>
+          <button onclick="adopt()">Wanna Adopt Her!</button>
+        </div>
       </div>
-      <div id="baba">
-      <a href="./login.html"><img src="./images/golden_2.jpg" alt="" /></a>
-      <p><strong>NAME: </strong> <em>Maria</em></p>
-      <p><strong>BREED: </strong> <em>Golden Retriever</em></p>
-      <p><strong>GENDER: </strong> <em>Female</em></p>
-      <p><strong>AGE: </strong> <em>8 months</em></p>
-      <p>
-        <strong>NOTABLES: </strong>
-        <em
-          >She is elegant little girl and is quite friendly with almost
-          everyone.</em
-        >
-      </p>
+      <div class="main3">
+        <img src="./images/golden_2.jpg" alt="">
+        <div class="contents">
+          <p><strong>NAME: </strong> <em>Maria</em></p>
+          <p><strong>BREED: </strong> <em>Golden Retriever</em></p>
+          <p><strong>GENDER: </strong> <em>Female</em></p>
+          <p><strong>AGE: </strong> <em>8 months</em></p>
+          <p>
+            <strong>NOTABLES: </strong>
+            <em>
+              She is elegant little girl and is quite friendly with almost
+              everyone.
+            </em>
+          </p>
+          <button onclick="adopt()">Wanna Adopt Her!</button>
+        </div>
       </div>
-      <div id="suga">
-      <a href="./login.html"><img src="./images/golden_5.jpg" alt="" /></a>
-      <p><strong>NAME: </strong> <em>Harry</em></p>
-      <p><strong>BREED: </strong> <em>Golden Retriever</em></p>
-      <p><strong>GENDER: </strong> <em>Male</em></p>
-      <p><strong>AGE: </strong> <em>15 years</em></p>
-      <p>
-        <strong>NOTABLES: </strong>
-        <em
-          >This gentle old man stills awaits to go to his fur-ever home after
-          spending 5 years in the centre.</em
-        >
-      </p>
+      <div class="main4">
+        <img src="./images/golden_5.jpg" alt="">
+        <div class="contents">
+          <p><strong>NAME: </strong> <em>Harry</em></p>
+          <p><strong>BREED: </strong> <em>Golden Retriever</em></p>
+          <p><strong>GENDER: </strong> <em>Male</em></p>
+          <p><strong>AGE: </strong> <em>15 years</em></p>
+          <p>
+            <strong>NOTABLES: </strong>
+            <em>This gentle old man stills awaits to go to his fur-ever home after
+              spending 5 years in the centre.
+            </em>
+          </p>
+          <button onclick="adopt()">Wanna Adopt Her!</button>
+        </div>
+      </div>
+      <div class="main5">
+        <button onclick="dogPage()">TO go BACK</button>
       </div>
     </div>
-    <a href="./dogs.html">
-        <strong id="bytr"> Click here to go back to previous  Page
-        </a></strong> 
   </body>
 </html>

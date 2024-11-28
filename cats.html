@@ -1,53 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <style>
-        #div1{
-            width:100%;
-            height:1000px;
-            background-color:beige;
-            background-repeat: no-repeat;
-            background-size: 100%;
-            background-attachment: fixed;
-
-
-        }
-        a.helo{
-           font-size:30px;
-           color: brown;
-        }
-        em{
-            color:RED;
-        }
-        strong{
-            color:blue;
-            font-size:30px;
-        }
-        .dabba{
-            width:300px;
-        }
-    </style>
-    
-    <div id="div1">
-    <h1> <em> Welcome !</em> Here you can find different breeds of <em>Cats</em> we have been taking care </h1>
-    <a href="./homepage.html">
-        <strong> Click here to go back to home Page
-        </a></strong> 
-        <h2>You can have a look on these below breeds</h2>
-      <a class="helo" href="./ginger.html">
-        <img src="./images/ginger.jpg" alt="">
-        <p>GINGER CAT</p> <br>
-      </a> <br>
-      <a class="helo" href="./graytabby.html">
-        <img class="dabba" src="./images/gray_tabby.jpg" alt="">
-        <p>GRAY TABBY</p> <br>
-      </a>
+    <link rel="stylesheet" href="./cats.css">
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div class="abc">
+      <div class="main1">
+        <h1>
+          <em>Welcome</em>
+          Here You can find different breeds of.....
+          <strong>Cats....</strong>
+          we have been taking care of them !
+          <button onclick="goToHomePage()">Dashboard</button>
+        </h1>
+      </div>
+      <div class="main2">
+        <h2>You can have a look on the below breeds we have......</h2>
+        <div>
+          <p>
+            Adopting a Ragdoll cat means bringing home a gentle, 
+            affectionate companion who loves to cuddle. 
+            Known for their calm and docile temperament, 
+            Ragdolls are ideal for families and individuals seeking a loving pet. 
+            They often follow their owners around and enjoy 
+            being involved in daily activities. With their striking blue eyes and silky, 
+            plush coats, they are as beautiful as they are sweet-natured. 
+            Ragdolls adapt well to indoor living and are great with children and other pets. 
+            By adopting a Ragdoll, you gain a loyal, 
+            easygoing friend who will fill your home with warmth and companionship.
+          </p>
+          <img src="./images/ragdoll.jpg" alt="">
+          <p>RagDoll-> <button onclick="ragdoll()">Check it out</button></p>
+        </div>
+        <div>
+          <p>
+            Adopting a Ginger cat means adding a playful, 
+            affectionate, and friendly companion to your home. 
+            These cats are known for their outgoing and adventurous personalities, 
+            often forming strong bonds with their families. 
+            Their striking orange coats and charming demeanor make them stand out. 
+            Ginger cats are generally low-maintenance and adapt well to 
+            various living environments. 
+            They're great with children and enjoy interactive playtime, 
+            making them perfect for families or active owners. By adopting a Ginger cat, 
+            you'll provide a loving home to a lively, 
+            loving pet who will brighten your days with their cheerful energy.
+          </p>
+          <img src="./images/ginger.jpg" alt="">
+          <p>Ginger (Orange Tabby) -> <button onclick="ginger()">Check it out</button></p>
+        </div>
+        <div>
+          <p>
+            Adopting a Gray Tabby cat offers an intelligent, 
+            affectionate, and adaptable companion. 
+            Known for their beautiful coats with stripes, spots, or swirls, 
+            these cats are as charming as they are easygoing. 
+            Gray Tabbies form strong bonds with their owners and enjoy being 
+            involved in daily life. They are playful but also appreciate downtime, 
+            making them a great fit for families, singles, or seniors. 
+            Their versatility allows them to thrive in a variety of homes. 
+            By adopting a Gray Tabby, you're bringing home a devoted 
+            friend who will fill your life with love and companionship.
+          </p>
+          <img src="./images/gray_tabby.jpg" alt="">
+          <p>Gray Tabby -> <button onclick="graytabby()">Check it out</button></p>
+        </div>
+        <div>
+          <p>
+            Adopting a British Shorthair brings a loyal, 
+            independent, and affectionate companion into your life. 
+            These cats are known for their calm and quiet nature, 
+            making them perfect for a relaxed household. 
+            Their dense, plush coats and round faces add to their 
+            irresistible charm. British Shorthairs are adaptable and 
+            thrive as indoor cats, bonding deeply with their families while 
+            maintaining their independence. 
+            They are excellent with children and other pets, 
+            making them a great choice for families. 
+            By adopting a British Shorthair, you gain a 
+            loving and elegant pet who will bring joy and serenity to your home.
+          </p>
+          <img src="./images/british.jpg" alt="">
+          <p>British Short Hair -> <button onclick="british()">Check it out</button></p>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

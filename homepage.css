@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color:beige;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width :100%;
+    gap :20px;
+    background-color: antiquewhite;
+    padding :20px;
+}
+
+.main1{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   background-color: beige;
+   width :100%;
+   padding :20px;
+}
+
+.main2{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: cornsilk;
+   gap :10px;
+   width :100%;
+   padding :20px;
+}
+.main3{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #f5d0fe;
+   width :100%;
+   padding :20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap :40px;
+}
+.dog,.cat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap :20px;
+}
+
+.header p{
+    font-size :40px;
+    width :100%;
+}
+
+em{
+    color :red;
+}
+.main1 >p {
+    color :blue;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.main1 p{
+    width :140vh;
+}
+
+.main2 .pets{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap :40px;
+}
+
+
+
+.pets img{
+    height :250px;
+    object-fit: cover;
+    width :100%;
+}
+
+button{
+    background-color: gold;
+    color :blue;
+    font-weight: bold;
+    font-size: 20px;
+    width :150px;
+    height :50px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    font-style: italic;
+}
+.abc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;;
+    gap :20px;
+}
+
+.main3 button{
+    width  :250px;
+}
+
+.main3 p,ul{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    color :blue;
+}
+
+ul {
+    color :black;
+}
+.s{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

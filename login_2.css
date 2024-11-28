@@ -1,97 +1,164 @@
-body{
-    background: whitesmoke;
-    display:flex;
-    justify-content : center;
+/* General Body Styling */
+body {
+    background-color: #f4f7fc; /* Soft background color */
+    display: flex;
+    justify-content: center;
     align-items: center;
     min-height: 100vh;
-    min-width: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Clean font */
 }
-.main{
+
+/* Main Form Container */
+.main {
     box-sizing: border-box;
-    box-shadow: 0 0 15px gainsboro;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
     width: 500px;
-    height: 500px;
-    display:flex;
-    justify-content : center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color: gainsboro;
-    border-radius: 50px;
-    cursor: pointer;
-    font-size: 20px;
+    background-color: #ffffff; /* White background for form */
+    border-radius: 15px;
+    position: relative;
+    margin-top: 50px; /* Gap between form and Payment Page title */
 }
-#name{
-    width:300px;
+
+/* Heading Styling */
+.hii {
+    text-align: center;
+    margin-bottom: 20px; /* Reducing the gap */
 }
-#email2{
-    width: 300px;
+
+.hii h1 {
+    font-size: 2em;
+    color: #333;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
 }
-#payment_mode{
-    width: 100px;
+
+.hii h1:hover {
+    color: #2980b9; /* Darker blue when hovered */
 }
-.hii{
-    display:flex;
-    justify-content : center;
-    align-items: center;
-    margin:20px;
-    padding: 20px;
-    position: absolute;
-    left:40%;
-    top:-4%;
+
+/* Form Input Fields */
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
 }
-#submit2{
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+    border-color: #3498db; /* Blue border on focus */
+    outline: none;
+    background-color: #eaf2f8; /* Light blue background on focus */
+}
+
+/* Submit Button */
+#submit2,
+#reset2 {
     height: 50px;
-    width: 100px;
-    background-color: whitesmoke;
-    color: darkblue;
-    box-shadow: 0 0 15px lightblue;
-    position: absolute;
-    left:38%;
-    top:70%;
-}
-.submit{
-    margin:10px;
-}
-#reset2{
-    position:absolute;
-    left:70%;
-    height: 50px;
-    width: 100px;
-    position: absolute;
-    left:52%;
-    top:70%;
-    background-color: whitesmoke;
-    color: darkblue;
-    box-shadow: 0 0 15px lightblue;
-}
-#homing{
-    font-weight: 200px;
     width: 120px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    margin-top: 20px;
+}
+
+#submit2:hover,
+#reset2:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+#submit2:active,
+#reset2:active {
+    transform: translateY(2px); /* Slight press effect */
+}
+
+/* Home Button */
+#homing {
+    font-size: 1em;
+    width: 140px;
     height: 50px;
-    position: absolute;
-    left:2%;
-    top: 4%;
-    background-color: navajowhite;
-    box-shadow: 0 0 15px lightblue;
-}
-#homing:hover{
-    background-color: lightblue;
-}
-#submit2:hover{
-    background-color: gainsboro;
-}
-#reset2:hover{
-    background-color: gainsboro;
-}
-#homing:active{
-    color: blue;
-    transform: translate(2px,2px);
+    background-color: #f39c12;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px; /* Added margin to create space between form and Home button */
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
 }
-#regis2:active{
-    color: blue;
-    transform: translate(2px,2px);
-    cursor: pointer;
+
+#homing:hover {
+    background-color: #e67e22; /* Slightly darker yellow-orange */
 }
-h1:hover{
-    color: darkblue;
+
+#homing:active {
+    transform: translateY(2px); /* Slight press effect */
+}
+
+/* Form Layout */
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Select Dropdown Styling */
+select {
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-size: 1em;
+    border: 2px solid #ccc;
+}
+
+/* Reset Button */
+#reset2 {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.abc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap :20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .main {
+        width: 90%;
+        padding: 20px;
+    }
+
+    #submit2,
+    #reset2 {
+        width: 100%;
+    }
+
+    #homing {
+        width: 100px;
+    }
 }

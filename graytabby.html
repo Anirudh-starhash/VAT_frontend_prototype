@@ -1,110 +1,75 @@
-<!-- pitbul dog -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PET1</title>
-    <style>
-      p {
-        font-size: 20px;
-      }
-      img {
-        width: 300px;
-        margin-left: 50px;
-        margin-right: 75px;
-        float: left;
-      }
-      p.na {
-        margin-top: 100px;
-      }
-      #vytr{
-        position:relative;
-        bottom: 980px;
-        left:600px;
-        font-size: 30px;
-      }
-      #div1 {
-        width: 100%;
-        height:1400px;
-        background-color: bisque;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-attachment: fixed;
-      }
-      #loiu{
-            border:solid;
-            padding:20px;
-            height: 400px;
-        }
-        #ftyu{
-            border:solid;
-            padding:20px;
-            height: 300px;
-        }
-        #vusu{
-            border:solid;
-            padding:20px;
-            height: 400px;
-        }
-      #vusu2{
-        text-align: center;
-          font-size: 50px;
-      }
-      .sc{
-        width:400px;
-      }
-      </style>
-    <div id="div1">
-      <h1>GRAY TABBY</h1>
+    <title>Gray Tabby</title>
+    <link rel="stylesheet" href="./golden.css">
+    <script src="./index.js"></script>
   </head>
   <body>
-    <div id="vusu2">
-      <a href="./cats.html">
-        <strong id="vusu2"> Click here to go back to  Previous Page
-        </a></strong> 
-     </div>
-    <div id="loiu">
-    <p class="na"></p>
-    <a href="./login.html"><img src="./images/grey1.jpg" alt="" /></a>
-    <p><strong>NAME: </strong> <em>Biscuits</em></p>
-    <p><strong>BREED: </strong> <em>Gray tabby</em></p>
-    <p><strong>GENDER: </strong> <em>Female</em></p>
-    <p><strong>AGE: </strong> <em>1 year</em></p>
-    <p>
-      <strong>NOTABLES: </strong>
-      <em
-        >She is a great house cat and a fearless one as she is mostly seen
-        fighting her fellow cats and dogs in the centre. She also makes a lot of
-        biscuits.</em
-      >
-    </p>
+    <div class="abc">
+      <h1>GRAY TABBY</h1>
+      <div class="main1">
+        <img src="./images/grey1.jpg" alt="Gray Tabby">
+        <div class="contents">
+          <p><strong>NAME: </strong> <em>Charlie</em></p>
+          <p><strong>BREED: </strong> <em>Gray Tabby</em></p>
+          <p><strong>GENDER: </strong> <em>Female</em></p>
+          <p><strong>AGE: </strong> <em>1 year</em></p>
+          <p>
+            <strong>NOTABLES: </strong>
+            <em>Luna is a playful and friendly tabby who loves chasing strings and curling up in laps.</em>
+          </p>
+          <button onclick="adopt()">Wanna Adopt Her!</button>
+        </div>
+      </div>
+      <div class="main2">
+        <img src="./images/grey2.jpg" alt="Gray Tabby">
+        <div class="contents">
+          <p><strong>NAME: </strong> <em>Whiskers</em></p>
+          <p><strong>BREED: </strong> <em>Gray Tabby</em></p>
+          <p><strong>GENDER: </strong> <em>Male</em></p>
+          <p><strong>AGE: </strong> <em>2 years</em></p>
+          <p>
+            <strong>NOTABLES: </strong>
+            <em>Whiskers is a quiet and curious tabby who loves exploring new places and watching birds.</em>
+          </p>
+          <button onclick="adopt()">Wanna Adopt Him!</button>
+        </div>
+      </div>
+      <div class="main3">
+        <img src="./images/grey3.jpg" alt="Gray Tabby">
+        <div class="contents">
+          <p><strong>NAME: </strong> <em>Oliver</em></p>
+          <p><strong>BREED: </strong> <em>Gray Tabby</em></p>
+          <p><strong>GENDER: </strong> <em>Male</em></p>
+          <p><strong>AGE: </strong> <em>6 months</em></p>
+          <p>
+            <strong>NOTABLES: </strong>
+            <em>Oliver is a mischievous kitten who loves pouncing and playing hide-and-seek.</em>
+          </p>
+          <button onclick="adopt()">Wanna Adopt Him!</button>
+        </div>
+      </div>
+      <div class="main4">
+        <img src="./images/grey4.jpg" alt="Gray Tabby">
+        <div class="contents">
+          <p><strong>NAME: </strong> <em>Ruby</em></p>
+          <p><strong>BREED: </strong> <em>Gray Tabby</em></p>
+          <p><strong>GENDER: </strong> <em>Female</em></p>
+          <p><strong>AGE: </strong> <em>3 years</em></p>
+          <p>
+            <strong>NOTABLES: </strong>
+            <em>Ruby is a calm and affectionate cat who enjoys sunny spots and gentle head scratches.</em>
+          </p>
+          <button onclick="adopt()">Wanna Adopt Her!</button>
+        </div>
+      </div>
+      <div class="main5">
+        <button onclick="catPage()">To go BACK</button>
+      </div>
     </div>
-    <div id="ftyu">
-    <a href="./login.html"><img src="./images/grey2.jpg" alt="" /></a>
-    <p><strong>NAME: </strong> <em>Ash</em></p>
-    <p><strong>BREED: </strong> <em>Gray tabby</em></p>
-    <p><strong>GENDER: </strong> <em>Male</em></p>
-    <p><strong>AGE: </strong> <em>1 month</em></p>
-    <p>
-      <strong>NOTABLES: </strong>
-      <em
-        >He is definitely the cutest cat that you can choose. He is very curious
-        about things and always wants to explore his surroundings.</em
-      >
-    </p>
-    </div>
-    <div id="vusu">
-    <a href="./login.html"><img class="sc" src="./images/grey3.jpg" alt=""></a>
-    <p> <strong>NAME: </strong> <em>Pepper</em> </p>
-    <p> <strong>BREED: </strong> <em>Gray tabby</em> </p>
-    <p> <strong>GENDER: </strong> <em>Male</em> </p>
-    <p> <strong>AGE: </strong> <em>9 years</em></p>
-    <p> <strong>NOTABLES: </strong> <em>This old guy loved his past owners but sadly they abandoned him and since then he takes care of all the kittens that arrive at the adoption centre. He is searching for a forever home and owners who would love him for the rest of his life.</em> </p>
-    </div>
-
-  
   </body>
 </html>

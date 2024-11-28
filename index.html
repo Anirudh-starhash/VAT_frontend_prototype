@@ -1,78 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VAT</title>
-</head>
-<body>
-    <style>
-        h1{
-            color: red;
-            text-align: center;
-            font: bold;
-        }
-        h2{
-            color: blue;
-            text-align: center;
-            font:bold;
-        }
-        body{
-            background-color: aliceblue;
-        }
-        #adve{
-            position: absolute;
-            top:50%;
-            left:40%;
-        }
-        #value{
-            position: absolute;
-            top:50%;
-            left:0%;
-            height: 600px;
-        }
-        #talent{
-            position: absolute;
-            top:50%;
-            left:70%;
-        }
-        #journey{
-            text-align: center;
-        }
-        #jour{
-            text-align: center;
-            background-color: blueviolet;
-            color: gainsboro;
-            height: 100px;
-            width: 200px;
-        }
-        #jour:hover{
-    background-color: lightblue;
-    color: black;
-        }
-        #jour{
-    font-weight: 200px;
-    box-shadow: 0 0 15px lightblue;
-        }
-    </style>
-    <h1 draggable="True">Welcome to VAT website</h1>
-    <h2>V for valorous</h2>
-    <h2>A for adventurous</h2>
-    <h2>T for talented</h2>
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+ </head>
+ <body>
+   <div class="header">
+     <button onclick="contact()">CONTACT US</button>
+     <button onclick="about()">ABOUT US</button>
+     <button onclick="journeys()">JOURNEY SO FAR</button>
+   </div>
+   <div class="main">
+      <h1>VAT   -> <button onclick="goToHomePage()">Let's Start</button></h1>
+      <div class="forI">
+        <div>
+          <img src="./images/value.jpg" alt="">
+          <p><span>View-></span> You can view various pets here! </p>
+        </div>
+        <div>
+          <img src="./images/adve.jpg" alt="">
+          <p><span>Adopt-></span>You can adopt various lovable cuties here!</p>
+        </div>
+        <div>
+          <img src="./images/talent.jpg" alt="">
+          <p><span>Take- ></span>Many or Choosen Ones can be your companion to your Home</p>
+        </div>
+      </div>
+   </div>
 
-    <div id="value">
-        <img src="./images/value.jpg" alt="">
-    </div>
-    <div id="adve">
-        <img src="./images/adve.jpg" alt="">
-    </div>
-    <div id="talent">
-       <img src="./images/talent.jpg" alt="">
+   <div class="footer">
+      <h2 class="left">@ANIRUDH PABBARAJU</h2>
+      <div class="right">
+        <div>
+          <h2>INSTAGRAM</h2>
+          <h2>TWITTER</h2>
+          <h2>GITHUB</h2>
+        </div>
+        <h3>These are the places you can find us</h3>
+      </div>
     </div>
 
-    <div id="journey">
-        <a href="./homepage.html"><button id="jour">Start your journey</button></a>
-    </div>
-
-</body>
-</html>
+ </body>
+ </html>
