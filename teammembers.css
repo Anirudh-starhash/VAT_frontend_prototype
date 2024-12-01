@@ -1,0 +1,86 @@
+/* General styles */
+body {
+    background-color: #222;
+    color: #f0e68c;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header img {
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+  }
+  
+  header p {
+    font-size: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    font-style: italic;
+  }
+  
+  .home-link {
+    color: #f0e68c;
+    font-size: 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #444;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .home-link:hover {
+    background-color: #555;
+  }
+  
+  /* Team section */
+  .team {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 10px;
+  }
+  
+  .member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 20px;
+  }
+  
+  .member:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .member img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+  }
+  
+  .member-info {
+    max-width: 600px;
+  }
+  
+  .member-info h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #ffd700;
+  }
+  
+  .member-info p {
+    margin: 0;
+    font-size: 18px;
+    text-align: justify;
+  }
+  
