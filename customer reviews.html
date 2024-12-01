@@ -4,88 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Customer review</title>
-    <style>
-      body {
-        background-color: yellow;
-        font-size: xx-large;
-        font-style: italic;
-        font-weight: bold;
-        color: blue;
-      }
-      img {
-        width: 500px;
-        margin-left: 30%;
-        height: 350px;
-      }
-      a {
-        position: relative;
-        bottom: 2100px;
-        left: 63px;
-        color: blue;
-        font-size: 30px;
-      }
-      #owner_4{
-        position: absolute;
-        top:100%;
-        left:20%;
-      }
-      #owner_3{
-        position: absolute;
-        top:100%;
-        left:-22%;
-      }
-      #owner_{
-        position: absolute;
-        top:140%;
-      }
-      #owner_5{
-        position: absolute;
-        top:230%;
-
-      }
-      #Home{
-        text-align: center;
-        position: absolute;
-        top:0%;
-      }
-    </style>
+    <title>Customer Reviews</title>
+    <link rel="stylesheet" href="reviews.css" />
   </head>
   <body>
-    <a href="./homepage.html" id="Home">Home</a>
-    <img src="./images/owner_1.jpg" />
-    <p>
-      Mrs.Carol adopted this dog from us 2years ago. She was all alone during
-      the lockdown and felt that she found a perfect companion in the dog to
-      regulate her stress and anxiety during the hard times.
-    </p>
-    <img src="./images/owner_2.jpg" />
-    <p>
-      Mr.Ragunath being a retired army officer adopted this dog 5 years ago. He
-      expressed that this dog was a good companion and made up for the boredom
-      of him as he was very playful and sometimes even naughty as a grandchild.
-    </p>
-    <div id="owner_">
-    <img src="./images/owner_3.jpg"  id="owner_3"/>
-    <img src="./images/owner_4.jpg" alt="" id="owner_4">
-    <p>
-      Mr and Mrs Verma adopted a pug 7 years ago. According to Mrs.Verma
-      <u
-        >"We felt very lifeless during the time we were having a difficulty to
-        give birth to a child. <br>This pug was a sigh of relief and become a good
-        companion in my life".</u
-      >
-    </p>
-  </div>
-    <div id="owner_5">
-    <img src="./images/owner_5.webp"  />
-    <p>
-      Being a student, Ms.shabana felt lonely during her studies abroad so she
-      adopted a pet cat 3 years. This cat was taken care of before adoption as
-      it was an infected stray cat. Knowing this she took good care of the cat
-      and the both immediately became good friends and she found a good
-      companion while she was away from her family.
-    </p>
-    </div> 
+    <header>
+      <a href="./homepage.html" class="home-link">Home</a>
+      <h1>Our Happy Customers</h1>
+    </header>
+
+    <section class="reviews">
+      <div class="review">
+        <img src="./images/owner_1.jpg" alt="Mrs. Carol and her pet" />
+        <div class="review-text">
+          <p>
+            <strong>Mrs. Carol</strong> adopted this dog from us 2 years ago. She was all alone during the lockdown and felt
+            that she found a perfect companion in the dog to regulate her stress and anxiety during the hard times.
+          </p>
+        </div>
+      </div>
+
+      <div class="review">
+        <img src="./images/owner_2.jpg" alt="Mr. Ragunath and his pet" />
+        <div class="review-text">
+          <p>
+            <strong>Mr. Ragunath</strong>, a retired army officer, adopted this dog 5 years ago. He expressed that this dog
+            was a good companion and made up for the boredom of him as he was very playful and sometimes even naughty
+            like a grandchild.
+          </p>
+        </div>
+      </div>
+
+      <div class="review">
+        <img src="./images/owner_3.jpg" alt="Mr. and Mrs. Verma and their pug" />
+        <div class="review-text">
+          <p>
+            <strong>Mr. and Mrs. Verma</strong> adopted a pug 7 years ago. According to Mrs. Verma, 
+            <em>
+              "We felt very lifeless during the time we had difficulty giving birth to a child. This pug
+              was a sigh of relief and became a good companion in my life."
+            </em>
+          </p>
+        </div>
+      </div>
+
+      <div class="review">
+        <img src="./images/owner_5.webp" alt="Ms. Shabana and her cat" />
+        <div class="review-text">
+          <p>
+            <strong>Ms. Shabana</strong>, a student, adopted a pet cat 3 years ago while studying abroad. This cat was a rescued stray that had been infected. Shabana took good care of the cat, and they quickly became best friends, providing her with comfort and companionship during her time away from home.
+          </p>
+        </div>
+      </div>
+    </section>
   </body>
-</html> 
+</html>

@@ -1,0 +1,93 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffbea; /* Softer yellow background for better readability */
+    color: #2b3a67; /* Darker blue for better contrast */
+    line-height: 1.6;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #fcd34d; /* Muted yellow for elegance */
+    color: #2b3a67;
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .home-link {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 1rem;
+    color: #2b3a67;
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 2px solid #2b3a67;
+    border-radius: 5px;
+    background-color: #fcd34d;
+    font-weight: bold;
+  }
+  
+  .home-link:hover {
+    background-color: #2b3a67;
+    color: #fcd34d;
+  }
+  
+  /* Main content styles */
+  .zodiac-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    gap: 40px;
+  }
+  
+  .zodiac-section {
+    width: 100%;
+    max-width: 900px;
+  }
+  
+  .zodiac-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .zodiac-section img:hover {
+    transform: scale(1.05); /* Adds a slight zoom effect on hover */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.5rem;
+    }
+  
+    .home-link {
+      font-size: 0.9rem;
+    }
+  
+    .zodiac-content {
+      padding: 20px 10px;
+      gap: 20px;
+    }
+  
+    .zodiac-section img {
+      max-width: 100%;
+    }
+  }
+  
