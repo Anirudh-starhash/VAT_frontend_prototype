@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="contact.css">
+  <script src="./index.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Contact VAT</h1>
+    <p>We’d love to hear from you! Feel free to reach out.</p>
+  </header>
+  <main>
+    <section class="contact-info">
+      <h2>Get in Touch</h2>
+      <p>Email us at: <a href="mailto:vatweb123@gmail.com">vatweb123@gmail.com</a></p>
+      <p>Phone: +91 98765 43210</p>
+    </section>
+    <section class="contact-form">
+      <h2>Send a Message</h2>
+      <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="Your Message" rows="6" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <button id="home-btn" onclick="goToHome()">Home</button>
+
+    </section>
+  </main>
+</body>
+</html>

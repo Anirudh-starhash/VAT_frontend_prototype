@@ -1,0 +1,146 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Light background */
+    color: #2a2a2a; /* Dark text color for contrast */
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Container for all content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background for content box */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    flex-grow: 1;
+}
+
+/* Header Styling */
+header {
+    background-color: #3d3d3d; /* Dark header for contrast */
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1 {
+    font-size: 3.5em;
+    font-family: 'Georgia', serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Section and Box Styling */
+section {
+    padding: 40px;
+    margin: 20px 0;
+    background-color: #fefefe;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+    color: #5e5e5e;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Inner Box and Content Layout */
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Divisions within each box */
+.box .top-left,
+.box .bottom-left,
+.box .content-left,
+.box .content-right {
+    margin: 10px 0;
+}
+
+.box .top-left,
+.box .bottom-left {
+    background-color: #f0f0f0; /* Light gray background for these sections */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.box .content-left,
+.box .content-right {
+    display: inline-block;
+    width: 48%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #fafafa; /* Slightly different background for content sections */
+}
+
+.box .content-left {
+    float: left;
+}
+
+.box .content-right {
+    float: right;
+}
+
+section p {
+    font-size: 1.2em;
+    color: #333;
+    text-align: justify;
+}
+
+/* Home Button Styles */
+button {
+    background-color: #8c7d3f; /* Royal gold */
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto;
+}
+
+button:hover {
+    background-color: #7b6a2e;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section h2 {
+        font-size: 2em;
+    }
+
+    .box .content-left,
+    .box .content-right {
+        width: 100%;
+        margin: 0;
+        float: none;
+    }
+
+    button {
+        width: 100%;
+    }
+}
